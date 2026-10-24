@@ -1,0 +1,189 @@
+{
+  "host": "127.0.0.1",
+  "port": 8001,
+  "auth_token": "jarvis-desktop-secret-token-change-in-production",
+  "full_access_mode": true,
+  "approved_apps": {
+    "whatsapp": {
+      "name": "WhatsApp",
+      "executable": "whatsapp:",
+      "description": "WhatsApp Desktop Messenger",
+      "requires_approval": false
+    },
+    "telegram": {
+      "name": "Telegram",
+      "executable": "telegram.exe",
+      "description": "Telegram Desktop Messenger",
+      "requires_approval": false
+    },
+    "camera": {
+      "name": "Camera",
+      "executable": "microsoft.windows.camera:",
+      "description": "Windows Camera",
+      "requires_approval": false
+    },
+    "photos": {
+      "name": "Photos",
+      "executable": "ms-photos:",
+      "description": "Windows Photos & Pictures",
+      "requires_approval": false
+    },
+    "store": {
+      "name": "Microsoft Store",
+      "executable": "ms-windows-store:",
+      "description": "Windows App Store",
+      "requires_approval": false
+    },
+    "clock": {
+      "name": "Clock & Alarms",
+      "executable": "ms-clock:",
+      "description": "Windows Clock & Timer",
+      "requires_approval": false
+    },
+    "weather": {
+      "name": "Weather",
+      "executable": "bingweather:",
+      "description": "Windows Weather",
+      "requires_approval": false
+    },
+    "maps": {
+      "name": "Maps",
+      "executable": "bingmaps:",
+      "description": "Windows Maps",
+      "requires_approval": false
+    },
+    "notepad": {
+      "name": "Notepad",
+      "executable": "notepad.exe",
+      "description": "Windows Text Editor",
+      "requires_approval": false
+    },
+    "calc": {
+      "name": "Calculator",
+      "executable": "calc.exe",
+      "description": "Windows Calculator",
+      "requires_approval": false
+    },
+    "explorer": {
+      "name": "File Explorer",
+      "executable": "explorer.exe",
+      "description": "Windows File Manager",
+      "requires_approval": false
+    },
+    "code": {
+      "name": "Visual Studio Code",
+      "executable": "code.cmd",
+      "description": "Source Code Editor",
+      "requires_approval": false
+    },
+    "cmd": {
+      "name": "Command Prompt",
+      "executable": "cmd.exe",
+      "description": "Windows Command Shell",
+      "requires_approval": true
+    },
+    "paint": {
+      "name": "Paint",
+      "executable": "mspaint.exe",
+      "description": "Windows Image Editor",
+      "requires_approval": false
+    },
+    "taskmgr": {
+      "name": "Task Manager",
+      "executable": "taskmgr.exe",
+      "description": "Windows Task Manager",
+      "requires_approval": true
+    },
+    "powershell": {
+      "name": "PowerShell",
+      "executable": "powershell.exe",
+      "description": "Windows PowerShell Console",
+      "requires_approval": false
+    },
+    "terminal": {
+      "name": "Windows Terminal",
+      "executable": "wt.exe",
+      "description": "Modern Windows Terminal",
+      "requires_approval": false
+    },
+    "chrome": {
+      "name": "Google Chrome",
+      "executable": "chrome.exe",
+      "description": "Google Web Browser",
+      "requires_approval": false
+    },
+    "edge": {
+      "name": "Microsoft Edge",
+      "executable": "msedge.exe",
+      "description": "Microsoft Web Browser",
+      "requires_approval": false
+    },
+    "brave": {
+      "name": "Brave Browser",
+      "executable": "brave.exe",
+      "description": "Brave Privacy Browser",
+      "requires_approval": false
+    },
+    "firefox": {
+      "name": "Mozilla Firefox",
+      "executable": "firefox.exe",
+      "description": "Mozilla Web Browser",
+      "requires_approval": false
+    },
+    "spotify": {
+      "name": "Spotify",
+      "executable": "spotify.exe",
+      "description": "Music & Podcast Streaming",
+      "requires_approval": false
+    },
+    "discord": {
+      "name": "Discord",
+      "executable": "discord.exe",
+      "description": "Voice & Chat Community Platform",
+      "requires_approval": false
+    },
+    "steam": {
+      "name": "Steam",
+      "executable": "steam.exe",
+      "description": "Gaming Distribution Platform",
+      "requires_approval": false
+    },
+    "settings": {
+      "name": "Windows Settings",
+      "executable": "control.exe",
+      "description": "System Configuration & Settings",
+      "requires_approval": false
+    },
+    "vlc": {
+      "name": "VLC Media Player",
+      "executable": "vlc.exe",
+      "description": "Multimedia Audio & Video Player",
+      "requires_approval": false
+    },
+    "word": {
+      "name": "Microsoft Word",
+      "executable": "winword.exe",
+      "description": "Word Processor",
+      "requires_approval": false
+    },
+    "excel": {
+      "name": "Microsoft Excel",
+      "executable": "excel.exe",
+      "description": "Spreadsheet Application",
+      "requires_approval": false
+    }
+  },
+  "allowed_url_schemes": ["http", "https"],
+  "allowed_directories": [
+    "C:\\",
+    "D:\\",
+    "E:\\",
+    "C:\\Users\\abdur",
+    "C:\\Users\\abdur\\OneDrive\\Documents\\JARVIS",
+    "C:\\Users\\abdur\\Documents",
+    "C:\\Users\\abdur\\Desktop",
+    "C:\\Users\\abdur\\Downloads",
+    "C:\\Users\\abdur\\Pictures",
+    "C:\\Users\\abdur\\Videos"
+  ]
+}
